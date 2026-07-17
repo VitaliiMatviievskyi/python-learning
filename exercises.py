@@ -1,4 +1,4 @@
-num1 = float(input("number 1 ... "))
-num2 = float(input("number 2 ... "))
+def squareNum(num):
+    return num ** 2
 
-print(round(num1 / num2, 3))
+print(squareNum(int(input("Number? "))))
